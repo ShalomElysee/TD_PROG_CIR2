@@ -1,4 +1,4 @@
-/* Premier programme en C */
+/* Premier programme en C 
 #include<stdlib.h>
 #include<stdio.h>
 #include<string.h>// pour utiliser strcmp
@@ -102,36 +102,42 @@ int main()
 		}
 
 	}
-	*/
-char chainentree[] = { "Bonjour" };
-char lettrentree;
-int b = 0;
-
-
-do {
-	printf("Joueur 1, entrez une lettre:");
-	scanf_s("%c", &lettrentree);
-	b + 1;
-
-	for (int i = 0; i == sizeof(chainentree); i++) {
-		if (strcmp(chainentree[i], lettrentree) == 0) ){
-			printf("%c",chainentree[i]);
-		}
-		else {
-			printf("_");
-
-		}
-
-	}while (b==10)
 	
+	char chainentree[] = { "Bonjour" };
+	char lettrentree;
+	int b = 0;
+	int length = sizeof(chainentree) - 1; // Longueur du mot sans le caractère nul '\0'
+	char lettresTrouvees[length]; // Tableau pour les lettres trouvées
 
+	// Initialisation du tableau avec des '_'
+	for (int i = 0; i < length; i++) {
+		lettresTrouvees[i] = '_';
 	}
 
+	do {
+		printf("Joueur 1, entrez une lettre : ");
+		scanf(" %c", &lettrentree); // Espace avant %c pour ignorer les retours à la ligne
+		b = b + 1; // Incrémentation correcte
 
-	
+		// Vérification si la lettre entrée est dans le mot
+		for (int i = 0; i < length; i++) {
+			if (chainentree[i] == lettrentree) {
+				lettresTrouvees[i] = lettrentree; // Remplacement du '_' par la lettre correcte
+			}
+		}
+
+		// Affichage du mot avec les lettres trouvées ou des '_'
+		for (int i = 0; i < length; i++) {
+			printf("%c", lettresTrouvees[i]);
+		}
+		printf("\n"); // Saut de ligne pour meilleure lisibilité
+
+	} while (b < 10); // Arrêt après 10 essais
+
+	return 0;
 
 
 }
+*/
 
 
- 

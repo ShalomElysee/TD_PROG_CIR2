@@ -1,8 +1,9 @@
-
 #include <stdio.h>
 #define _USE_MATH_DEFINES // for C with VS
 #include <math.h>
 #include "shape_cpp.hpp"
+#include "Point2D.cpp"
+#include "Point2D.hpp"
 
 
 Rectangle::Rectangle(const float &length, const float &width)
@@ -20,7 +21,7 @@ float Rectangle::get_area()
 void Rectangle::print_data()
 {
     printf("Shape type : Rectangle with sides : %f %f\n",
-           length_, width_);                            
+           length_, width_);                       
 }
 
 Triangle::Triangle(const float &length_side1, const float &length_side2,

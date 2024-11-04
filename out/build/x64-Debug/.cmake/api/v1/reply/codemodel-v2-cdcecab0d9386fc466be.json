@@ -1,0 +1,194 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "TD1",
+					"jsonFile" : "directory-TD1-Debug-b7b5b3a975f61f49b8fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TD1",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "OOP1",
+					"jsonFile" : "directory-OOP1-Debug-0f31590e47f8a5bc361c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "OOP1",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "TP2",
+					"jsonFile" : "directory-TP2-Debug-326c2afe07fc3345ecf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TP2",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "Excours",
+					"jsonFile" : "directory-Excours-Debug-a89ead27d334235cd93b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Excours",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "TP3",
+					"jsonFile" : "directory-TP3-Debug-6b11a1aa5f0a8027ec29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TP3",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "TD_PROG_CIR2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Excours::@138971269405b476ef8f",
+					"jsonFile" : "target-Excours-Debug-1b33737ed8d48253ce79.json",
+					"name" : "Excours",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OOP1::@ec3749ace85ae1b1fd43",
+					"jsonFile" : "target-OOP1-Debug-74b762ab33e118f8807f.json",
+					"name" : "OOP1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "Point3D::@08066924ac81fca4d261",
+					"jsonFile" : "target-Point3D-Debug-5d5f90df3c39d46be402.json",
+					"name" : "Point3D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TD1::@b566191a3c274e145dff",
+					"jsonFile" : "target-TD1-Debug-99b669bfcd4c42b3d968.json",
+					"name" : "TD1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TP2::@08066924ac81fca4d261",
+					"jsonFile" : "target-TP2-Debug-0581404ebf4c2b04dcdd.json",
+					"name" : "TP2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "TP3::@0348edb21b1c8f1c093a",
+					"jsonFile" : "target-TP3-Debug-6960efdfe71712593b48.json",
+					"name" : "TP3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "exo3::@0348edb21b1c8f1c093a",
+					"jsonFile" : "target-exo3-Debug-635793f021426af6c7d8.json",
+					"name" : "exo3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Admin/source/repos/TD_PROG_CIR2/out/build/x64-Debug",
+		"source" : "C:/Users/Admin/source/repos/TD_PROG_CIR2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
